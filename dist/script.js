@@ -1,20 +1,21 @@
-var message = "Hello, from TypeScript!";
+"use strict";
+const message = "Hello, from TypeScript!";
 console.log(message);
-var count = 5;
+let count = 5;
 console.log(count);
-var myname = "Ali";
+let myname = "Ali";
 console.log(myname);
-var isActive = true;
+let isActive = true;
 console.log(isActive);
-var randomValue = "Hello";
+let randomValue = "Hello";
 randomValue = 42; // This is allowed with 'any'
 console.log(randomValue);
-var array;
+let array;
 array = [1, 2, 3];
 console.log(array);
-var array2 = [1, 2, "ali"];
+const array2 = [1, 2, "ali"];
 console.log(array2);
-var person = ["Ali", 25];
+let person = ["Ali", 25];
 console.log(person);
 function logMessage() {
     console.log("Logging a message");

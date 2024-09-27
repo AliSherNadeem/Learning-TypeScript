@@ -1,4 +1,5 @@
 // union type example
+// A union type in TypeScript means that a variable can hold values of multiple specified types. You can define a variable that can be one of several types by using the | symbol.
 
 let id: number | string;
 id = 101;
@@ -6,6 +7,7 @@ id = "abc";
 console.log(id);
 
 // intersection type example 1
+//An intersection type combines multiple types into one, meaning a variable must have all the properties from the types it intersects. You can define an intersection using the & symbol.
 
 type person = {
   name: string;
@@ -38,6 +40,6 @@ let staff: Person1 & Employee1 = {
   name: "Ali Sher",
   age: 25,
   employeeId: 123,
-  position: "Developer",
+  position: "Front end Developer",
 };
 console.log(staff);
